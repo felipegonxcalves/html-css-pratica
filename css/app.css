@@ -1,0 +1,15 @@
+#header {
+    min-height: 55px;
+    height: 55px;
+    padding: 1em 0;
+}
+
+#header .nav {
+    text-align: right;
+}
+
+#header .nav a{
+    text-decoration: none; /* Tira o sublinhado do link a */
+    padding: 0 1em; /* Espaçamento */
+    color: #292929 ;
+}

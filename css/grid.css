@@ -6,6 +6,12 @@
     clear: both;
 }
 
+.container {
+    width: 970px;
+    margin: 0 auto; /* Centralizar */
+    position: relative;
+}
+
 .one,
 .one-third,
 .two-third,
