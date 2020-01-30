@@ -13,3 +13,28 @@
     padding: 0 1em; /* Espaçamento */
     color: #292929 ;
 }
+
+#header .bg {
+    background: linear-gradient(#E9EEF2, #E6EBEF);
+    margin: 2em 0;
+    min-height: 400px; /* Altura mínima */
+    text-align: center;
+}
+
+#header .bg h1 {
+    padding: 1.5em 0 0 0;
+    font-size: 3em;    
+}
+
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 30px;
+    background: #ececec;
+    text-decoration: none;
+}
+
+.btn.btn-blue {
+    background: #267df4;
+    color: #ffffff;
+}
