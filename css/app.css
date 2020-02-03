@@ -1,6 +1,4 @@
-#header {
-    min-height: 55px;
-    height: 55px;
+#header {    
     padding: 1em 0;
 }
 
@@ -37,4 +35,30 @@
 .btn.btn-blue {
     background: #267df4;
     color: #ffffff;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+#content .right {
+    float: right;
+    transform: scaleX(-1); /* Inverte os lados da propriedade */
+}
+
+#content .right .text {    
+    transform: scaleX(-1); /* Inverte os lados da propriedade */
+}
+
+#content h4 {
+    padding: 1em;
+    font-size: 1em;
+}
+
+#content p {
+    padding: 1.5em;
+}
+
+#content .title {
+    text-align: center;
 }
