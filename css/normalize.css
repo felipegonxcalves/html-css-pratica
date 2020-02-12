@@ -23,8 +23,13 @@ button,
     -webkit-appearance: button ;
 }
 
+input {
+    font-size: 1em;
+}
+
 textarea {
     overflow: auto;
+    font-size: 1.1em;
 }
 
 [hidden] {

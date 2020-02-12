@@ -30,11 +30,18 @@
     border-radius: 30px;
     background: #ececec;
     text-decoration: none;
+    border: 1px solid #ececec;
 }
 
 .btn.btn-blue {
     background: #267df4;
+    border: 1px solid #267df4;
     color: #ffffff;
+}
+
+.btn.btn-block {
+    display: block;
+    width: 100%;
 }
 
 .img-responsive {
@@ -59,6 +66,49 @@
     padding: 1.5em;
 }
 
-#content .title {
+.title {
     text-align: center;
+}
+
+#contact {
+    background: #ececec;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;    
+    line-height: 1.5;
+    padding: 0.2em 0.5em;
+    border: 1px solid #cecece;
+    border-radius: 0.2em;
+}
+
+#content {
+    padding: 0 0 4em 0;
+}
+
+#footer {
+    background: #333333;
+    color: #ffffff;
+}
+
+#footer .social{
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+#footer .social a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.9em;
+}
+
+#footer .social a:hover{
+    text-decoration: underline;
 }
